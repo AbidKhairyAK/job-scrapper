@@ -1,0 +1,20 @@
+{
+    "name": "abidkhairyak/job-scrapper",
+    "description": "Scrapper for job listing web",
+    "type": "project",
+    "require": {
+        "roach-php/core": "^3.0",
+        "symfony/var-dumper": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AbidKhairyAK",
+            "email": "abid.khairy.ak@gmail.com"
+        }
+    ]
+}
