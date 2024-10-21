@@ -14,7 +14,7 @@ class PostAction
 
 
 	public static function createFilenameCSV (string $title) {
-		$date 		= date('Y-m-d H:i:s');
+		$date 		= date('Y-m-d H.i.s');
 		$format 	= 'csv';
 		$output_dir	= './output';
 		$filename 	= "$output_dir/$date - $title - Scrapped Jobs.$format";
